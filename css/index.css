@@ -1,0 +1,776 @@
+/*front page btn*/
+.btn-rounded{border-radius:10em}
+.btn:hover{outline:1}
+.btn{
+    padding: .84rem 2.14rem;
+font-size: .81rem;
+-webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+margin: .375rem;
+border: 0;   
+cursor: pointer;
+white-space: normal;
+}
+.waves-effect{
+    position: relative;
+cursor: pointer;
+-webkit-user-select: none;
+-ms-user-select: none;
+user-select: none;
+z-index: 1;
+}
+/*/front page btn*/
+
+@media screen and (max-width: 1300px) {
+    .sub-title-height {
+        margin-top: 13%;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .sub-title-height {
+        margin-top: 10%;
+    }
+}
+@media screen and (min-width: 601px) {
+    .desktop-width {
+        max-width: 80%;
+        max-height: auto;
+    }
+}
+@media screen and (min-width: 601px) {
+    .portfolio-width {
+        height: 60%;
+        width: 60%;
+    }
+}
+
+[data-speed] {
+    bottom: 0
+}
+
+.disable-hover {
+    pointer-events: none
+}
+
+.table {
+    display: table;
+    width: 100%;
+    height: 100%
+}
+
+.cell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%
+}
+
+.link-shadow {
+    z-index: 9999;
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+.plLayer {
+    position: absolute
+}
+
+.Parallax {
+    color: #270000;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.Parallax a {
+    color: #270000;
+    text-decoration: none;
+    border: none
+}
+
+.Parallax h1,{
+    
+    font: 800% 'Geometria-Medium', Arial, sans-serif;
+    font-style: normal;
+    line-height: 1.2;
+    left: auto;
+    letter-spacing: .075em;
+    text-align: left
+}
+.Parallax h2, .Parallax h1, .Parallax h4{
+    
+    font: 500% 'Reem Kufi', sans-serif;
+    color: #6b5252;
+    font-style: normal;
+    line-height: 120%;
+    left: auto;
+    text-align: left
+}
+.Parallax h4{
+    
+    font: 300% 'Reem Kufi', sans-serif;
+    color: #6b5252;
+    font-style: normal;
+    line-height: 120%;
+    left: auto;
+    text-align: left
+}
+.topCaption h1, .topCaption h2, .topCaption h1, .topCaption h4 {
+    position: absolute;
+    top: auto;
+    bottom: 10.5%;
+    left: 7.7%
+}
+
+.bottomCaption h1, .bottomCaption h2, .bottomCaption .h1 {
+    position: absolute;
+    top: auto;
+    bottom: 0%;
+    left: 40%;
+    margin-right: 5%;
+}
+.topCaptionServices h4, .topCaptionServices h4, .topCaptionServices .h4 {
+    position: absolute;
+    bottom: auto;
+    font-size: 300%;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+#intro h1 {
+    width: 80%
+}
+
+.intro-pic {
+    height: 100%;
+    top: auto;
+    max-height: 993px
+}
+
+.test-subject {
+    height: 106%;
+    max-height: 1053px;
+    bottom: -6%;
+    top: auto
+}
+
+:root .DT-img {
+    width: 100%
+}
+
+.DT-img {
+    display: inline-block;
+    max-width: 60%;
+    height: auto
+}
+
+.DT-logo {
+    max-width: 30%
+}
+
+.DT-upperImage {
+    margin-top: -50px
+}
+
+.DT-frontImg {
+    max-width: 100%;
+    margin-top: -75px
+}
+
+.kis-logo {
+    display: block;
+    width: 67%;
+    margin: 0 0 1%
+}
+
+.kisLayer01 {
+    left: 9.3%;
+    top: 50%;
+    width: 86.6%;
+    margin-top: -27%;
+    opacity: .71;
+    filter: alpha(opacity=0.7)
+}
+
+.kisLayer02 {
+    left: 6.67%;
+    top: 50%;
+    width: 90.2%;
+    margin-top: -22%;
+    opacity: .52;
+    filter: alpha(opacity=0.5)
+}
+
+.kisLayer03 {
+    left: 7.66%;
+    top: 50%;
+    width: 78.2%;
+    margin-top: -20%
+}
+
+.kisLayer04 {
+    top: 50%;
+    left: 25%;
+    width: 46.2%;
+    margin-top: -10%
+}
+
+.bilet2uLogo {
+    position: relative;
+    top: 43.5%;
+    height: 13%
+}
+
+.b2u-man {
+    height: 100%
+}
+
+.b2u-l-1 {
+    min-width: 52%;
+    min-height: 60%
+}
+
+.b2u-l0 {
+    min-width: 90%;
+    min-height: 100%
+}
+
+.b2u-l1 {
+    min-width: 90%;
+    min-height: 100%
+}
+
+.b2u-confetti {
+    overflow: hidden;
+    width: 100%;
+    height: 100%
+}
+
+.b2u-r-specle {
+    min-width: 22%;
+    min-height: 33%
+}
+
+.b2u-y-specle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    min-width: 46%;
+    min-height: 45%
+}
+
+.left-arrow, .right-arrow {
+    position: fixed;
+    top: 0;
+    z-index: 8020;
+    display: none;
+    width: 180px;
+    height: 100%;
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none
+}
+
+.left-arrow>img, .right-arrow>img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -20px
+}
+
+.left-arrow.touch, .right-arrow.touch {
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: -40px
+}
+
+.left-arrow.touch>img, .right-arrow.touch>img {
+    position: static;
+    margin: 0
+}
+
+.left-arrow {
+    top: 10.5%;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    margin-top: 190px
+}
+
+.left-arrow>img {
+    top: 44.75%;
+    margin-top: -150px
+}
+
+.left-arrow.touch {
+    left: 60px
+}
+
+.left-arrow:hover>img {
+    margin-left: -30px;
+    -webkit-transition: margin-left 0.3s ease-out;
+    -moz-transition: margin-left 0.3s ease-out;
+    -o-transition: margin-left 0.3s ease-out;
+    transition: margin-left 0.3s ease-out
+}
+
+.right-arrow {
+    right: 0
+}
+
+.right-arrow.touch {
+    right: 60px
+}
+
+.right-arrow:hover>img {
+    margin-left: -10px;
+    -webkit-transition: margin-left 0.3s ease-out;
+    -moz-transition: margin-left 0.3s ease-out;
+    -o-transition: margin-left 0.3s ease-out;
+    transition: margin-left 0.3s ease-out
+}
+
+@media screen and (max-width: 321px) {
+    .left-arrow.touch {
+        left: 0
+    }
+    .right-arrow.touch {
+        right: 0
+    }
+}
+
+.nav-animation {
+    position: fixed;
+    right: 140px;
+    top: 50%;
+    margin-top: -40px;
+    left: auto !important;
+    display: none;
+    width: 80px;
+    height: 80px
+}
+
+.nav-animation.touch {
+    display: none !important
+}
+
+.nav-animation>img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.nav-animation>.active {
+    display: none
+}
+
+.unloaded {
+    height: 100%;
+    overflow: hidden
+}
+
+.loadBackground, .Preloader {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+    z-index: 2;
+    height: 100%;
+    width: 100%
+}
+
+.loadBackground {
+    z-index: 1;
+    background-color: #000000;
+    display: block
+}
+
+.Preloader {
+    background: rgba(0, 0, 0, 0.3)
+}
+
+.Preloader:after {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 100%;
+    content: ''
+}
+
+.Preload-end, .Preload-start {
+    top: 0;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    width: 0
+}
+
+.Preload-endImg, .Preload-startImg {
+    width: 200px;
+    height: 51px
+}
+
+.Preload-startImg {
+    float: right
+}
+
+.Preload-endImg {
+    float: left
+}
+
+[data-speed] {
+    bottom: 0
+}
+
+.disable-hover {
+    pointer-events: none
+}
+
+.table {
+    display: table;
+    width: 100%;
+    height: 100%
+}
+
+.cell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%
+}
+
+.link-shadow {
+    z-index: 9999;
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+.plLayer {
+    position: absolute
+}
+
+.Parallax {
+    color: #4e0000;
+    font:'Reem Kufi', sans-serif;
+}
+
+.Parallax a {
+    color: #270000;
+    text-decoration: none;
+    border: none
+}
+
+.Parallax h1 {
+    font: 900% 'Permanent Marker', sans-serif;
+    color: #270000;
+    font-style: normal;
+    line-height: 1.2;
+    left: auto;
+    letter-spacing: .075em;
+    text-align: left
+}
+
+.topCaption h1, .topCaption h2, .topCaption .h1, .topCaption h4 {
+    position: absolute;
+    top: 10.5%;
+    bottom: auto;
+    left: 7.7%
+}
+
+#intro h1 {
+    width: 80%
+}
+
+.intro-pic {
+    height: 100%;
+    top: auto;
+    max-height: 993px
+}
+
+.test-subject {
+    height: 106%;
+    max-height: 1053px;
+    bottom: -6%;
+    top: auto
+}
+
+:root .DT-img {
+    width: 100%
+}
+
+.DT-img {
+    width: 100%;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 50%;
+}
+
+.DT-logo {
+    max-width: 80%
+}
+
+.DT-upperImage {
+    margin-top: -50px
+}
+
+.DT-frontImg {
+    max-width: 100%;
+    margin-top: -75px
+}
+
+.kis-logo {
+    display: block;
+    width: 67%;
+    margin: 0 0 1%
+}
+
+.kisLayer01 {
+    left: 9.3%;
+    top: 50%;
+    width: 86.6%;
+    margin-top: -27%;
+    opacity: .71;
+    filter: alpha(opacity=0.7)
+}
+
+.kisLayer02 {
+    left: 6.67%;
+    top: 50%;
+    width: 90.2%;
+    margin-top: -22%;
+    opacity: .52;
+    filter: alpha(opacity=0.5)
+}
+
+.kisLayer03 {
+    left: 7.66%;
+    top: 50%;
+    width: 78.2%;
+    margin-top: -20%
+}
+
+.kisLayer04 {
+    top: 50%;
+    left: 25%;
+    width: 46.2%;
+    margin-top: -10%
+}
+
+.bilet2uLogo {
+    position: relative;
+    top: 43.5%;
+    height: 13%
+}
+
+.b2u-man {
+    height: 100%
+}
+
+.b2u-l-1 {
+    min-width: 52%;
+    min-height: 60%
+}
+
+.b2u-l0 {
+    min-width: 90%;
+    min-height: 100%
+}
+
+.b2u-l1 {
+    min-width: 90%;
+    min-height: 100%
+}
+
+.b2u-confetti {
+    overflow: hidden;
+    width: 100%;
+    height: 100%
+}
+
+.b2u-r-specle {
+    min-width: 22%;
+    min-height: 33%
+}
+
+.b2u-y-specle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    min-width: 46%;
+    min-height: 45%
+}
+
+.left-arrow, .right-arrow {
+    position: fixed;
+    top: 0;
+    z-index: 8020;
+    display: none;
+    width: 180px;
+    height: 100%;
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none
+}
+
+.left-arrow>img, .right-arrow>img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -20px
+}
+
+.left-arrow.touch, .right-arrow.touch {
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: -40px
+}
+
+.left-arrow.touch>img, .right-arrow.touch>img {
+    position: static;
+    margin: 0
+}
+
+.left-arrow {
+    top: 10.5%;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    margin-top: 190px
+}
+
+.left-arrow>img {
+    top: 44.75%;
+    margin-top: -150px
+}
+
+.left-arrow.touch {
+    left: 60px
+}
+
+.left-arrow:hover>img {
+    margin-left: -30px;
+    -webkit-transition: margin-left 0.3s ease-out;
+    -moz-transition: margin-left 0.3s ease-out;
+    -o-transition: margin-left 0.3s ease-out;
+    transition: margin-left 0.3s ease-out
+}
+
+.right-arrow {
+    right: 0
+}
+
+.right-arrow.touch {
+    right: 60px
+}
+
+.right-arrow:hover>img {
+    margin-left: -10px;
+    -webkit-transition: margin-left 0.3s ease-out;
+    -moz-transition: margin-left 0.3s ease-out;
+    -o-transition: margin-left 0.3s ease-out;
+    transition: margin-left 0.3s ease-out
+}
+
+@media screen and (max-width: 321px) {
+    .left-arrow.touch {
+        left: 0
+    }
+    .right-arrow.touch {
+        right: 0
+    }
+}
+
+.nav-animation {
+    position: fixed;
+    right: 140px;
+    top: 50%;
+    margin-top: -40px;
+    left: auto !important;
+    display: none;
+    width: 80px;
+    height: 80px
+}
+
+.nav-animation.touch {
+    display: none !important
+}
+
+.nav-animation>img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.nav-animation>.active {
+    display: none
+}
+
+.unloaded {
+    height: 100%;
+    overflow: hidden
+}
+
+.loadBackground, .Preloader {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+    z-index: 2;
+    height: 100%;
+    width: 100%
+}
+
+.loadBackground {
+    z-index: 1;
+    background-color: #000000;
+    display: block
+}
+
+.Preloader {
+    background: rgba(0, 0, 0, 0.3)
+}
+
+.Preloader:after {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 100%;
+    content: ''
+}
+
+.Preload-end, .Preload-start {
+    top: 0;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    width: 0
+}
+
+.Preload-endImg, .Preload-startImg {
+    width: 200px;
+    height: 51px
+}
+
+.Preload-startImg {
+    float: right
+}
+
+.Preload-endImg {
+    float: left
+}
